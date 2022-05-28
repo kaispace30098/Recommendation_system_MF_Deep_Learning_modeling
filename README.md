@@ -1,4 +1,6 @@
 # Recommendation_system_MF_Deep_Learning_modeling
+![image](https://user-images.githubusercontent.com/93064471/170845434-c971e92f-c95f-4686-a1ea-e361727c06bf.png)
+
 This project is trying implement recommendation system with Keras API by collaborative filtering methods. The data we are training is The Movies Dataset at Kaggle(26 million ratings from 270,000 users for all 45,000 movies.)
 https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 The first model is a simple matrix factorization, which the ranking from user i to product j can be expressed as ui dot pj where elements u and p belong to decomposed user and product matrices.  The second model is a deep feed foward nueral network model where the inputs features are concatinated from user and product embedding matrices.For model evaluation, we use Tensorboard callback to plot out our metrics, in this case, Mean Sqaured Error. As a result, the DNN outperforms the traditional Matrix Factorization. 
